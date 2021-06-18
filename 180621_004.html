@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Information</title>
+    <style>
+        table,
+        td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 0.5%;
+        }
+
+        tr>td:nth-child(1) {
+            background-color: pink;
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+<body>
+    <p style="background-color: blue; color: white;">사용자 정보입력</p>
+    <p>안녕하세요. </p><br><br>
+
+    <form action="">
+        <table style="width:60%;">
+
+            <tr>
+                <td style="text-align: center;">사용자 ID</td>
+                <td colspan="3">
+                    <input type="text" name="" id="">
+                    <button>ID중복확인</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">비밀번호</td>
+                <td><input type="text" name="" id=""></td>
+                <td style="text-align: center; background-color: pink;">비밀번호 확인</td>
+                <td><input type="text" name="" id=""></td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">사용자 이름</td>
+                <td colspan="3"><input type="text" name="" id=""></td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">주민등록번호</td>
+                <td colspan="3"><input type="text" name="" id=""> - <input type="text" name="" id=""></td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">생년월일</td>
+                <td><input type="text" name="" id=""></td>
+                <td style="text-align: center; background-color: pink;">성별</td>
+                <td> <label> <input type="radio" name="sex" id="">남자</label><input type="radio" name="sex"
+                        id="">여자</label></td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">우편번호</td>
+                <td colspan="3"><input type="text" name="" id=""> - <input type="text" name=""
+                        id=""><button>우편번호검색</button> </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">주소</td>
+                <td colspan="3"><input type="text" name="" id="" style="width: 90%;"></td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">나머지주소</td>
+                <td colspan="3"><input type="text" name="" id="" style="width: 40%;"></td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">E-mail</td>
+                <td colspan="3"><input type="text" name="" id="">@
+                    <select name="email" id="email">
+                        <option value="choose">선택해주세요</option>
+                        <option value="gmail.com">gmail.com</option>
+                        <option value="hotmail.com">hotmail.com</option>
+                        <option value="hanmail.net">hanmail.net</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="text-align: center;">직업</td>
+                <td colspan="3">
+                    <select name="job" id="job">
+                        <option value="컴퓨터/정보통신">컴퓨터/정보통신</option>
+                        <option value="금융">금융</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tfoot>
+                <td colspan="4" style="background-color:white;">
+                    <button>등록</button>
+                    <button>취소</button>
+            </tfoot>
+
+
+    </form>
+
+</body>
+
+</html>
