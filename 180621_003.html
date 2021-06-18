@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <style>
+        div {
+            margin: 10px;
+
+        }
+    </style>
+
+    <form action="">
+        <!-- 폼이라는 태그 안에서는 태그와 맞지 않은 정보를 입력하면 알려준다. -->
+        <input type="text" required><br>
+        <!-- required를 넣으면 이 정보 없이는 다음 단계로 넘어가지 않게 해준다 (필수입력) -->
+        <input type="checkbox" name="program_lang" id="chk_html">
+        <label for="chk_html">HTML</label>
+        <input type="checkbox" name="program_lang" id="chk_css">
+        <label for="chk_css">CSS</label>
+        <!-- 이렇게 두줄이 아니라 -->
+        <label> <input type="checkbox" name="program_lang" id="">자바스크립트</label>
+        <!-- 이렇게 한줄로 할수있다 -->
+        <div>
+            <input type="color" name="" id="">
+        </div>
+
+        <div>
+            <input type="date">
+        </div>
+
+        <div>
+            <input type="datetime-local" name="" id="">
+        </div>
+
+        <div>
+            <input type="email" name="" id="">
+            <!-- text랑 기능상 별 차이 없다. 하지만 오류시 알려준다. -->
+
+        </div>
+
+        <div>
+            <input type="file" name="" id="" multiple>
+            <!-- multiple 이라고 하면 여러개의 파일 선택 가능하게 함 -->
+        </div>
+
+        <div>
+            <input type="image" src="">
+            <!-- input src와 달리 input type 으로 이미지를 넣어주면 기본적인 버튼 기능을 가짐 -->
+        </div>
+
+        <div>
+            <input type="month" name="" id=>
+        </div>
+
+        <div>
+            <input type="number" name="" id="">
+        </div>
+
+
+        <br><br>
+        <button>조회</button>
+        <input type="submit" value='저장'>
+    </form>
+
+
+</body>
+
+</html>
